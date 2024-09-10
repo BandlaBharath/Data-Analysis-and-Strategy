@@ -44,11 +44,11 @@ This project involves analyzing stock data using Python and MySQL. It includes:
 How It Works:
 --------------------
 
-- p1.py imports stock data from Google Sheets and stores it in a MySQL database.
+- 1_DataBase_Creation.py : It imports stock data from Google Sheets and stores it in a MySQL database.
 
-- p2.py analyzes the stock prices by calculating SMAs and generating plots for visual insights.
+- 2_Analysis.py : It analyzes the stock prices by calculating SMAs and generating plots for visual insights.
 
-- p3.py validates data using unit tests to ensure correct data types.
+- 3_Testing.py : It validates data using unit tests to ensure correct data types.
 
 
 
