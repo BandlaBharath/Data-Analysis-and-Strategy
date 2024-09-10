@@ -2,9 +2,9 @@
 
 ## Overview
 This project involves analyzing stock data using Python and MySQL. It includes:
-1. **Data Import (`DataBase_Creation.py`):** Fetches data from Google Sheets and stores it in MySQL.
-2. **Data Analysis (`Analysis.py`):** Calculates Simple Moving Averages (SMAs) and visualizes results.
-3. **Unit Testing (`Testing.py`):** Validates data types.
+1. **Data Import (`1_DataBase_Creation.py`):** Fetches data from Google Sheets and stores it in MySQL.
+2. **Data Analysis (`2_Analysis.py`):** Calculates Simple Moving Averages (SMAs) and visualizes results.
+3. **Unit Testing (`3_Testing.py`):** Validates data types.
 
 ## Setup
 
@@ -26,18 +26,18 @@ This project involves analyzing stock data using Python and MySQL. It includes:
       FLUSH PRIVILEGES;
     '''
 
-    2) Run p1.py: Creates the table and inserts data :
+    2) Run 1_DataBase_Creation.py : Creates the table and inserts data :
      '''
-      DataBase_Creation.py
+      1_DataBase_Creation.py
      '''
   
-    3) Run p2.py: Perform analysis and plot results.
+    3) Run 2_Analysis.py : Perform analysis and plot results.
      '''
-       Analysis.py
+       2_Analysis.py
      '''
-    4) Run p3.py: Execute unit tests.
+    4) Run 3_Testing.py : Execute unit tests.
      '''
-       Testing.py
+       3_Testing.py
      '''
  
 
